@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PROGETTO_TSW:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3154715b-e7b7-4c41-86ff-8182d0c3752c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2jMpsaiBp736DXwLzJje4bBJrK7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.192.executor&quot;: &quot;Run&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utente/IdeaProjects/PROGETTO_TSW&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Utente\IdeaProjects\PROGETTO_TSW\src\main\webapp" />
+      <recent name="C:\Users\Utente\IdeaProjects\PROGETTO_TSW\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Utente\IdeaProjects\PROGETTO_TSW\src\main\webapp\icons" />
+      <recent name="C:\Users\Utente\IdeaProjects\PROGETTO_TSW\src\main\webapp\css" />
+      <recent name="C:\Users\Utente\IdeaProjects\PROGETTO_TSW\src\main\webapp\brands" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Utente\IdeaProjects\PROGETTO_TSW\src\main\webapp\WEB-INF\prodResults" />
+      <recent name="C:\Users\Utente\IdeaProjects\PROGETTO_TSW\src\main\webapp\WEB-INF\purchase" />
+      <recent name="C:\Users\Utente\IdeaProjects\PROGETTO_TSW\src\main\webapp" />
+      <recent name="C:\Users\Utente\IdeaProjects\PROGETTO_TSW\src\main\webapp\WEB-INF\admin" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.192" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.192" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="PROGETTO_TSW:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/PROGETTO_TSW_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b61bedad-ffcb-45a2-929c-86119976db10" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52532" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="PROGETTO_TSW:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3154715b-e7b7-4c41-86ff-8182d0c3752c" name="Changes" comment="" />
+      <created>1721207010782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721207010782</updated>
+      <workItem from="1721207012081" duration="2005000" />
+      <workItem from="1721209075709" duration="55000" />
+      <workItem from="1721209187137" duration="846000" />
+      <workItem from="1721210954886" duration="311000" />
+      <workItem from="1721212516414" duration="743000" />
+      <workItem from="1721219286338" duration="28820000" />
+      <workItem from="1721384969909" duration="3876000" />
+      <workItem from="1721391692309" duration="14694000" />
+      <workItem from="1721463872992" duration="2000" />
+      <workItem from="1721463968197" duration="2105000" />
+      <workItem from="1721468802912" duration="4612000" />
+      <workItem from="1721474149233" duration="2541000" />
+      <workItem from="1721494899536" duration="33948000" />
+      <workItem from="1721696089588" duration="17913000" />
+      <workItem from="1721737840867" duration="239000" />
+      <workItem from="1721738612663" duration="8064000" />
+      <workItem from="1727183903891" duration="1049000" />
+      <workItem from="1728553641635" duration="787000" />
+      <workItem from="1732780778617" duration="762000" />
+      <workItem from="1736343081639" duration="1266000" />
+      <workItem from="1736431439171" duration="1373000" />
+      <workItem from="1736498329660" duration="1326000" />
+      <workItem from="1736608027390" duration="12000" />
+      <workItem from="1736610284420" duration="914000" />
+      <workItem from="1736775391146" duration="3138000" />
+      <workItem from="1736784189881" duration="242000" />
+      <workItem from="1736867533632" duration="612000" />
+      <workItem from="1736875002911" duration="913000" />
+      <workItem from="1736958396733" duration="182000" />
+      <workItem from="1737022019539" duration="9000" />
+      <workItem from="1761073011211" duration="4990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
