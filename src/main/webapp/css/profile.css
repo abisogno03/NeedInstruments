@@ -1,0 +1,69 @@
+/* Stile generico per tutti i bottoni */
+button {
+    border-radius: 12px; /* Vertici arrotondati */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+}
+
+/* Stile per i bottoni di modifica */
+button.modify {
+    background-color: #ccc;
+    color: white;
+}
+
+/* Stile per il tasto di uscita */
+button.logout {
+    background-color: red;
+    color: white;
+}
+
+/* Stile al passaggio del mouse (hover) */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Stile per il contenitore dei bottoni */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Stile di base per il contenuto */
+.content {
+    flex: 1;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.profiles {
+    display: flex;
+    gap: 10px;
+}
+
+.profile {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Media query */
+@media (max-width: 768px) {
+    .profiles {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .button-container {
+        width: 100%;
+        padding: 10px;
+    }
+}

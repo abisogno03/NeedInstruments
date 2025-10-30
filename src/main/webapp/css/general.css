@@ -1,0 +1,222 @@
+/* Imposta altezza e layout di base per il body e l'html */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configura il layout per utilizzare Flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    margin-top: 60px; /* Compensa l'altezza dell'header */
+    padding: 20px;
+}
+
+/* Stile di base per l'header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header a img {
+    vertical-align: middle;
+}
+
+/* Stile di base per il contenuto */
+.content {
+    margin-left: 200px; /* Compensa la larghezza della nav verticale */
+    flex: 1;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.brands, .products {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.brand, .product {
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button.add-cart, button.payment {
+    background-color: #FFD700; /* Colore giallo */
+    color: black; /* Testo nero */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+}
+
+button.add-cart:hover, button.payment:hover {
+    background-color: #FFC700; /* Colore giallo leggermente più scuro */
+    color: white; /* Testo bianco */
+}
+
+/* Stile per il pulsante "Aggiungi ai preferiti" e "Rimuovi da carrello" */
+button.add-fav, button.remove-cart {
+    background-color: #444; /* Colore grigio */
+    color: white; /* Testo bianco */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+}
+
+button.add-fav:hover, button.remove-cart:hover {
+    background-color: #1a1a1a; /* Colore grigio leggermente più scuro */
+    color: gray; /* Testo grigio */
+}
+
+@media (min-width: 1025px) {
+    .container {
+        margin-left: 200px; /* Spazio per il navVer */
+        padding-top: 60px; /* Compensa l'header */
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .brands {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .products {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+/* Media query per schermi medi (Tablet) */
+@media (max-width: 1024px) and (min-width: 776px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav.horizontal {
+        margin-top: 10px;
+    }
+
+    .container {
+        margin-left: 0; /* Rimuove lo spazio per il navVer */
+        padding: 20px;
+        background: darkred;
+    }
+
+    .navVer {
+        position: static; /* Rende la navVer fluida */
+        width: 100%; /* Occupa tutta la larghezza disponibile */
+        top: auto; /* Rimuove il posizionamento fisso */
+        bottom: auto;
+        padding: 10px 0;
+    }
+
+    .brands {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* Allinea i marchi a destra */
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Media query per schermi piccoli (Cellulare) */
+@media (max-width: 775px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    header nav.horizontal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    header nav.horizontal form {
+        margin-top: 10px;
+    }
+
+    header nav.horizontal a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .container {
+        margin-left: 0; /* Rimuove lo spazio per il navVer */
+        padding: 0;
+    }
+
+    .navVer {
+        display: none; /* Nasconde la navVer su cellulari */
+    }
+
+    .brands {
+        display: none; /* Nasconde i marchi sui cellulari */
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}

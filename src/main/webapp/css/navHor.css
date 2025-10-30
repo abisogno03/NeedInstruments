@@ -1,0 +1,142 @@
+/* Stile per la barra di navigazione orizzontale */
+header {
+    height: 60px;
+}
+
+nav.horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap; /* Impedisce l'andare a capo */
+}
+
+nav.horizontal a {
+    margin-right: 15px;
+    white-space: nowrap;
+}
+
+/* Stile per la barra di ricerca veloce */
+nav.horizontal form {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+nav.horizontal input[type="text"] {
+    margin-right: 10px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+nav.horizontal input[type="text"]:focus {
+    border-color: #999;
+}
+
+nav.horizontal button[type="submit"] {
+    height: 30px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+nav.horizontal button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* stile bottone accedi */
+nav.horizontal #login {
+    background-color: #FFD700; /* Colore giallo */
+    color: black; /* Testo nero */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+}
+
+nav.horizontal #login:hover {
+    background-color: #FFC700; /* Colore giallo leggermente più scuro */
+    color: white; /* Testo bianco */
+}
+
+nav.horizontal .hsearch a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Media query per schermi grandi (PC) */
+@media (min-width: 1025px) {
+    nav.horizontal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    nav.horizontal a {
+        margin-right: 15px;
+    }
+}
+
+/* Media query per schermi medi (Tablet) */
+@media (max-width: 1024px) and (min-width: 776px) {
+    nav.horizontal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.horizontal form {
+        margin-bottom: 10px;
+    }
+
+    nav.horizontal a {
+        margin: 5px 0;
+    }
+}
+
+/* Media query per schermi piccoli (Cellulare) */
+@media (max-width: 775px) {
+    nav.horizontal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav.horizontal form {
+        margin: 10px 0;
+    }
+
+    nav.horizontal button[type="submit"] {
+        margin-top: 10px;
+    }
+
+    nav.horizontal #login {
+        margin-top: 10px;
+    }
+
+    nav.horizontal a {
+        display: none; /* Nasconde i link tranne ACCEDI e la barra di ricerca */
+    }
+
+    nav.horizontal #login {
+        display: block;
+    }
+
+    nav.horizontal form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}

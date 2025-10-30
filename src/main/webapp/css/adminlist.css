@@ -1,0 +1,36 @@
+button.modify {
+    background-color: lightgray; /* Colore grigio */
+    color: black; /* Testo nero */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+}
+
+button.modify:hover{
+    background-color: dimgray; /* Colore grigio leggermente più scuro */
+    color: white; /* Testo bianco */
+}
+
+button.remove {
+    background-color: #cc0000; /* Colore rosso */
+    color: black; /* Testo nero */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+}
+
+button.remove:hover{
+    background-color: #ff1a1a; /* Colore rosso leggermente più chiaro */
+    color: white; /* Testo bianco */
+}
+

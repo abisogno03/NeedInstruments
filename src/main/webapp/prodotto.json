@@ -1,0 +1,29 @@
+{
+  "types": {
+    "Chitarra": {
+      "Elettrica": ["Fender", "Gibson", "Ibanez", "Yamaha", "Jackson"],
+      "Classica": ["Alhambra", "Yamaha", "Jose Torres", "Salvador Cortez", "Cordoba", "Eko"],
+      "Acustica": ["Fender", "Taylor", "Martin"],
+      "Corde": ["D'Addario", "Hannabach", "Galli", "Savarez"],
+      "Amplificatore": ["Marshall", "Boss"]
+    },
+
+    "Basso": {
+      "Elettrico": ["Fender", "Music Man"],
+      "Acustico": ["Ibanez", "Washburn"],
+      "Corde": ["D'Addario", "Elixir"],
+      "Amplificatore": ["Marshall", "Boss"]
+    },
+
+    "Batteria": {
+      "Elettronica": ["Roland", "Yamaha"],
+      "Acustica": ["Pearl", "Mapex"]
+    },
+
+    "Tastiera": {
+      "Pianoforte": ["Yamaha", "Steinway"],
+      "Elettrica": ["Yamaha"],
+      "Amplificatore": ["Marshall", "Boss"]
+    }
+  }
+}

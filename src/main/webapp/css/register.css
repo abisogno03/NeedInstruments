@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.register-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+.register-container img {
+    height: 50px;
+    margin-bottom: 20px;
+}
+.register-container h2 {
+    margin-bottom: 20px;
+}
+.register-container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+select,
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"],
+.register-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.register-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.register-container input[type="submit"]:hover {
+    background-color: #e0a800;
+}
+.error {
+    border: 2px solid red;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+/* Media query */
+@media (max-width: 480px) {
+    .register-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .register-container img {
+        height: 40px;
+    }
+
+    .register-container h2 {
+        font-size: 1.2em;
+    }
+}

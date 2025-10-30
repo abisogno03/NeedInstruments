@@ -1,0 +1,52 @@
+/* footer.css */
+
+/* Stile per il footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer .contact-section {
+    margin-bottom: 20px;
+}
+
+footer .contact-section h3 {
+    margin-bottom: 10px;
+}
+
+footer .contact-section p {
+    margin-bottom: 5px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media a img {
+    height: 24px;
+    width: 24px;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+/* Media query */
+@media (max-width: 768px) {
+    footer {
+        padding: 10px 0;
+    }
+
+    footer .social-media a {
+        margin: 5px;
+    }
+
+    footer .contact-section {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,80 @@
+/* Stile per la barra di navigazione verticale */
+nav.vertical {
+    width: 200px;
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    position: fixed; /* Impostato a 'fixed' per essere fisso */
+    top: 60px; /* Spazio sotto l'header */
+    bottom: 0; /* Occupa fino al fondo della finestra */
+    left: 0; /* Fisso a sinistra */
+    overflow-y: auto; /* Scorrimento verticale se necessario */
+}
+
+nav.vertical a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav.vertical .submenu a {
+    padding-left: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+nav.vertical a:hover,
+nav.vertical .submenu a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Stile di base per il contenuto */
+.container {
+    margin-left: 200px; /* Lascia spazio per il navVer */
+    padding-top: 60px; /* Compensa l'header */
+}
+
+.content {
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.brands, .products {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.brand, .product {
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Media query per schermi grandi (PC) */
+@media (min-width: 1025px) {
+    nav.vertical {
+        display: block; /* Mostra la navVer sui PC */
+    }
+}
+
+/* Media query per schermi medi (Tablet) */
+@media (max-width: 1024px) and (min-width: 776px) {
+    nav.vertical {
+        display: block; /* Mostra la navVer sui tablet */
+    }
+}
+
+/* Media query per schermi piccoli (Cellulare) */
+@media (max-width: 775px) {
+    nav.vertical {
+        display: none; /* Nasconde la navVer sui cellulari */
+    }
+}
+

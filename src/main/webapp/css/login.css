@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.login-container img {
+    height: 50px;
+    margin-bottom: 20px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+select,
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.login-container input[type="submit"]:hover {
+    background-color: #e0a800;
+}
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.register-link a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+.register-link a:hover {
+    color: #ffc107;
+}
+
+/* Media query */
+@media (max-width: 480px) {
+    .login-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .login-container img {
+        height: 40px;
+    }
+
+    .login-container h2 {
+        font-size: 1.2em;
+    }
+}

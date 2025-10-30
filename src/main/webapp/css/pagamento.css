@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 80px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content {
+    text-align: left;
+}
+
+/* Form Styles */
+form {
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #e0a800;
+}
+
+/* Error Styles */
+.error {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Product Styles */
+.products {
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product h3 {
+    margin: 0;
+    flex: 1;
+}
+
+.product img {
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+img.logo {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.product label {
+    margin-right: 10px;
+}
+
+/* Total Styles */
+#total {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product img {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .product label, .product input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    input[type="submit"] {
+        padding: 10px 5px;
+    }
+
+    .product {
+        padding: 10px;
+    }
+}
